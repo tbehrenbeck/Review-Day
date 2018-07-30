@@ -3,10 +3,25 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>John Kim Review</title>
+    <title>Hangman With an Object</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 </head>
 <body>
+    <h1>Hangman Game</h1>
+    <div>
+        <div>
+            <h3>Number of wins: <span id="winBox"></span></h3>
+        </div>
+        <div id="wordBox"></div>
+        <h3>Remaining Guesses: <span id="guessesRemaining"></span></h3>
+        <h3>Guessed Letters:</h3>
+        <div id="guessBox"></div>
+    </div>
 
+    <script type="text/javascript" src="assets/js/game.js"></script>
 </body>
 </html>
